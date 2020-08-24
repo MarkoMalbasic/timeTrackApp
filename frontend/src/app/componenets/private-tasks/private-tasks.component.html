@@ -1,0 +1,24 @@
+
+<div class="jumbotron text-center">
+  <h1>Time Track App</h1>
+  <p>
+    {{date   | date: 'fullDate'}}
+    {{date   | date: "HH:mm:ss"}}
+  </p>
+  <ng-container *ngIf="authService.loggedIn()">
+      <a class="" routerLink="" (click)="authService.logout()">Logout</a>
+  </ng-container>
+  
+  
+</div>
+
+<body>
+  <h1 id="timer">{{display}}</h1>
+  <div >
+    <button class="btn btn-primary btn-block" (click)='startTimer()'>Start</button>
+    <button class="btn btn-primary  btn-block" (click)='pauseTimer()'>Stop</button>
+    <button class="btn btn-primary  btn-block"  routerLink="/tasks" >Reports</button>
+  </div>
+</body>
+
+

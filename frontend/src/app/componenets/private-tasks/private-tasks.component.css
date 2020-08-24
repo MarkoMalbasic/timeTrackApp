@@ -1,0 +1,25 @@
+
+
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the page horizontally */
+    align-items: center; /* Center the page vertically */
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #timer {
+    font-size: 50px;
+  }
+
+  button {
+    width: 100px;
+  }
+
+.privateTasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

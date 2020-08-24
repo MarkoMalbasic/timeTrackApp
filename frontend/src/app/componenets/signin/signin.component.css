@@ -1,0 +1,54 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 89px;
+    padding-bottom: 100px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.mat-form-field{
+    color: white;
+    width: 220px;
+}
+
+.mat-card{
+    background-image: url('https://minutes.co/wp-content/uploads/2019/09/shutterstock_630912446-e1568129159337.jpg');
+  background-size: cover;
+}
+
+.text{
+    color: white;
+}
+
+.text1{
+    color: #404044;
+}
+
+.button{
+    padding-top: 200px;
+}
+
+::ng-deep.mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: white !important;
+   }
+  
+   ::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: white !important;
+  } 
+  
+  ::ng-deep.mat-form-field-ripple {
+   /*change color of underline when focused*/
+   background-color: white !important;
+  }

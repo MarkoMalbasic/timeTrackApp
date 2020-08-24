@@ -1,0 +1,25 @@
+
+<mat-card class="mat-elevation-z12">
+    <mat-card-title class="card-container">
+        Time Tracker App
+    </mat-card-title>
+    <div class="col-md-4 mx-auto">
+        
+            <div class="card-body">
+                <form (submit)="signIn()">
+                    <mat-form-field>
+                        <input matInput type="text" [(ngModel)]="user.email" placeholder="Email" name="email">
+                    </mat-form-field>
+                    <mat-form-field style="padding-bottom: 60px;">
+                        <input matInput type="password" [(ngModel)]="user.password" placeholder="Password" name="password">
+                    </mat-form-field>
+                    <button type="submit" class="btn btn-primary btn-block" style="background-color: #404044;">
+                        SignIn
+                    </button>
+                    <br>
+                    <p class="text">Already a member? <a class="text1" routerLink = "/signup">SIGN UP</a></p>
+                </form>
+            </div>
+    </div>
+</mat-card>
+
